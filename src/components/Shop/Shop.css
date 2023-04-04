@@ -1,0 +1,20 @@
+.shop-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.products-container {
+    width: 80%;
+    margin: 3rem 2rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    justify-items: center;
+    box-sizing: border-box;
+}
+.cart-container {
+    width: 20%;
+    background: rgba(255, 153, 0, 0.3);
+    text-align: center;
+    height: auto;
+}
