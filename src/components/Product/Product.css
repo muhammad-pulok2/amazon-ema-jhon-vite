@@ -27,13 +27,9 @@
 }
 
 .product button {
-    width: 100%;
-    color: #0e161a;
+
     background: rgba(255, 153, 0, 0.3);
-    position: absolute;
-    bottom: 0;
     border-radius: 0 0 8px 8px;
-    transition: .5s;
 }
 
 .product button:hover {

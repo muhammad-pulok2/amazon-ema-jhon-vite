@@ -4,7 +4,7 @@ import logo from "../../images/Logo.svg";
 const Header = () => {
   return (
     <div>
-      <nav className="header">
+      <nav className=" flex justify-between h-20 items-center px-5 py-5 w-full bg-black md:flex-row sm:flex-col">
         <img src={logo} alt="logo" />
         <div className="nav-menu">
           <a href="/order">Order</a>
